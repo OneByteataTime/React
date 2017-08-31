@@ -29,7 +29,7 @@ class Roster extends Component {
     var students = this.generateStudents();
 
     return (
-      <table>
+      <table className="App-full-width App-page-break">
           <RosterHeader/>
           <RosterBody students={students}/>
       </table>

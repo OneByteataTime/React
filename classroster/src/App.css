@@ -22,3 +22,21 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
+.App-report-header {
+  background-color: #bada55;
+  color: #444;
+}
+
+.App-table-header {
+  background-color: #ababab;
+  color: #444;
+}
+
+.App-full-width {
+  width: 100%;
+}
+
+.App-page-break {
+  page-break-before: always;
+}

@@ -6,7 +6,7 @@ class RosterBody extends Component {
 
   render() {
     const students = this.props.students.map((student) =>
-      <RosterRow studentName={student}/>
+      <RosterRow key={student} studentName={student}/>
     );
     return (
       <tbody>

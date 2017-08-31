@@ -16,13 +16,13 @@ class RosterHeader extends Component {
   render() {
     return (
       <thead>
-        <tr>
-          <th colspan="12">
+        <tr className="App-report-header">
+          <th colSpan="12">
             <span>Honors Biology 3</span>
             <span>Coleman, Aaron</span>
           </th>
         </tr>
-        <tr>
+        <tr className="App-table-header">
           <th>Student</th>
           <th>Grade Level</th>
           {this.renderEmptyColumns()}
